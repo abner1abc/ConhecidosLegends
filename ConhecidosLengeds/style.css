@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header nav button{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    height: 75px;
+    margin-top: 15px;
+    background-color: black;
+}
+
+header nav button:hover{
+    color: white;
+    background-color: blue;
+}
+
+header .container{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape .container{
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.rodape nav a:hover{
+    color: blue;
+}
+
+.titulo{
+    color: white;
+    margin-left: 10px;
+}
+
+.titulo3{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.botao1{
+    background-color: rgba(0,0,0, 0.50);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao2{
+    background-color: rgba(0,0,0, 0.50);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao3{
+    background-color: rgba(0,0,0, 0.50);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao4{
+    background-color: rgba(0,0,0, 0.50);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao5{
+    background-color: rgba(0,0,0, 0.50);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 2px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.foto-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url(/conhecidos3.png);
+    height: 1200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
