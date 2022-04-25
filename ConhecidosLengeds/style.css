@@ -5,7 +5,6 @@
 
 body{
     background: black;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -124,7 +123,7 @@ header .container{
 
 .foto-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url(/conhecidos3.png);
+    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)), url(/conhecidos3.png);
     height: 1200px;
     background-size: cover;
     display: flex;
